@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>show-up-user</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-item>
+    <ion-label>Estado civil</ion-label>
+    <ion-select [(ngModel)]="estadocivil" okText="Aceptar" cancelText="Cancelar">
+      <ion-option value="casado">Casad@</ion-option>
+      <ion-option value="soltero">Solter@</ion-option>
+      <ion-option value="divorciado">Divorciad@</ion-option>
+    </ion-select>
+  </ion-item>
+
+</ion-content>

@@ -1,0 +1,25 @@
+# Tfginder .gitignore file to ignore files that should not be committed to git
+# Prof.: Christan Vladimir Sucuzhanay Arevalo
+
+node_modules/
+/.angular/cache
+www/
+dist/
+platforms/
+plugins/
+$RECYCLE.BIN/
+Thumbs.db
+.DS_Store
+*~
+*.log
+log.txt
+npm-debug.log*
+.vscode/
+.firebase/
+.idea/
+.sourcemps/
+.sass-cache/
+.versions/
+hooks/
+
+
