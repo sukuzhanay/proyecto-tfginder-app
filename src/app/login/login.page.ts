@@ -46,7 +46,7 @@ export class LoginPage implements OnInit {
     if (user) {
       this.router.navigateByUrl('/home', { replaceUrl: true });
     } else {
-      this.showAlert('Registration failed', 'Please try again!');
+      this.showAlert('A Fella already exists', 'Try Login instead register, simp!');
     }
   }
 
